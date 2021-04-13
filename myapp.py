@@ -21,18 +21,18 @@ def code():
 		result = {"code": "ERROR"}
 		return jsonify(result), 500
 
-@app.route('/ping')
-def ping():
+@app.route('/stat')
+def stat():
 	_name = os.getenv("NAME", "")
 	if _name:
-		result = {"status": "pong"}
+		result = {"status": "SUCCESS"}
 		return jsonify(result), 200
 	else:
 		result = {"status": "ERROR"}
 		return jsonify(result), 503
 
-@app.route('/stat')
-def stat():
+@app.route('/info')
+def info():
 	_name = os.getenv("NAME", "")
 	_host = platform.node()
 	_joke = pyjokes.get_joke()

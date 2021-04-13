@@ -12,13 +12,13 @@ $ pip install -r requirements.txt
 $ python myapp.py
 ```
 
-### /ping
-- Return service status
+### /stat
+- Return service status: **SUCCESS** or **ERROR**
 
 ### /code
 - Return from variable **CODE**
 
-### /stat
+### /info
 - Return from variable **NAME**
 - Return current hostname
 - Return a joke for programmers

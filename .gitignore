@@ -1,6 +1,9 @@
 # Docker
 Dockerfile
 
+# k8s
+manifest/
+
 # Flask stuff:
 instance/
 .webassets-cache

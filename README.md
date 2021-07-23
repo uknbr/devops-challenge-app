@@ -1,4 +1,16 @@
-# Challenge App
+![Docker Image](https://img.shields.io/badge/image%20name-uknbr%2Fdevops--challenge-blue)
+![Image Version](https://img.shields.io/docker/v/uknbr/devops-challenge?sort=date)
+![Docker Pulls](https://img.shields.io/docker/pulls/uknbr/devops-challenge)
+![Docker Stars](https://img.shields.io/docker/stars/uknbr/devops-challenge)
+![Docker Image Size](https://img.shields.io/docker/image-size/uknbr/devops-challenge?sort=date)
+
+## Challenge Instructions - Phase 1
+```sh
+docker run -dti --name challenge uknbr/devops-challenge:2
+docker exec -ti challenge bash
+```
+
+# Challenge App - Phase 2
 
 ## Install Dependencies
 
